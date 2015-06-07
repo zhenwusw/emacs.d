@@ -17,6 +17,7 @@
 
 ;;; Config font
 (set-frame-font "Monaco-16")
+(tool-bar-mode -1)
 
 ;;; ido settings
 (require 'ido)
