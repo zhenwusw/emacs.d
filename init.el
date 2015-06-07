@@ -40,5 +40,5 @@
 (add-hook 'after-init-hook 'smartparens-global-mode)
 (add-hook 'after-init-hook 'smartparens-global-mode)
 (add-hook 'after-init-hook 'ido-mode)
-
+(add-hook 'after-init-hook 'window-numbering-mode)
 
