@@ -15,6 +15,8 @@
  ;; If there is more than one, they won't work right.
  )
 
+(package-initialize)
+
 ;;; Config font
 (set-frame-font "Monaco-16")
 (tool-bar-mode -1)
