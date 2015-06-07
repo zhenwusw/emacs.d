@@ -9,6 +9,7 @@
 ;;; Basic configuration
 (set-frame-font "Monaco-16")
 (tool-bar-mode -1)
+(setq ring-bell-function 'ignore) ; disable ring bell
 
 ;;-------------------------------------
 ;; Allow access from emacsclient
