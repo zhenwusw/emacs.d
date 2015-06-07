@@ -1,4 +1,4 @@
-;;; Add marmalade repo
+;;; Package repositories
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -7,6 +7,7 @@
  '(package-archives
    (quote
     (("marmalade" . "https://marmalade-repo.org/packages/")
+     ("melpa" . "http://melpa.org/packages/")
      ("gnu" . "http://elpa.gnu.org/packages/")))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
