@@ -42,4 +42,4 @@
 (add-hook 'after-init-hook 'ido-mode)
 (add-hook 'after-init-hook 'window-numbering-mode)
 (add-hook 'after-init-hook 'projectile-global-mode)
-
+(add-hook 'after-init-hook 'flx-ido-mode)
