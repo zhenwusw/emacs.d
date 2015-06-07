@@ -10,6 +10,7 @@
 (set-frame-font "Monaco-16")
 (tool-bar-mode -1)
 (setq ring-bell-function 'ignore) ; disable ring bell
+(setq js-indent-level 2)
 
 ;;-------------------------------------
 ;; Allow access from emacsclient
