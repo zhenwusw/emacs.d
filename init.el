@@ -31,16 +31,15 @@
 ;; (require) your ELPA packages, configure them as normal
 
 ;;; ==================== ELPA packages =============
-;; Config Smex
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands) ;; this is your old M-x
-(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
-
 ;; After init hook
 (add-hook 'after-init-hook 'global-company-mode)
-(add-hook 'after-init-hook 'smartparens-global-mode)
 (add-hook 'after-init-hook 'smartparens-global-mode)
 (add-hook 'after-init-hook 'ido-mode)
 (add-hook 'after-init-hook 'window-numbering-mode)
 (add-hook 'after-init-hook 'projectile-global-mode)
 (add-hook 'after-init-hook 'flx-ido-mode)
+
+;; Smex
+(global-set-key (kbd "M-x") 'smex)
+(global-set-key (kbd "M-X") 'smex-major-mode-commands) ;; this is your old M-x
+(global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
