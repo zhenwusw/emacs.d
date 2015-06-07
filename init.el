@@ -10,6 +10,13 @@
 (set-frame-font "Monaco-16")
 (tool-bar-mode -1)
 
+;;-------------------------------------
+;; Allow access from emacsclient
+;;-------------------------------------
+(require 'server)
+(unless (server-running-p)
+        (server-start))
+
 ;;; ==================== non-ELPA packages =============
 ;; Enable yasnippet
 (add-to-list 'load-path
